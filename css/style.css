@@ -101,4 +101,44 @@ body {
   letter-spacing: 0.06em;
 }
 
+/* section */
+.section-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/* Особенности */
+.peculiarities-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.peculiarities-list .text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Наша команда */
+.team-list .title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-list .text {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
 
