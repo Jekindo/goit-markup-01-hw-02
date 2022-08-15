@@ -34,7 +34,6 @@ body {
 
 /* header */
 .header {
-	
 }
 
 /* LOGO */
@@ -63,7 +62,7 @@ body {
 }
 
 /* contacts-nav */
-.contacts-nav .link{
+.contacts-nav .link {
   color: inherit;
 
   font-weight: 500;
@@ -73,6 +72,33 @@ body {
 }
 
 .contacts-nav .link:hover,
-.site-nav .link:hover { 
-	color: var(--accent-color);
+.site-nav .link:hover {
+  color: var(--accent-color);
 }
+
+/* HERO */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+
