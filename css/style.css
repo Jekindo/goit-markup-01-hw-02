@@ -146,6 +146,10 @@ body {
 .footer {
 	background-color: #2F303A;
 }
+
+.footer-logo {
+	color: var(--primary-white-color);
+}
 .footer-address {
 	color: var(--primary-white-color);
 
