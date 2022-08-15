@@ -1,0 +1,78 @@
+/* 
+Основной цвет текста -  #757575
+Вторичный цвет текста - #212121
+Цвет ссылок - 
+акцент - #2196F3
+белый - #FFFFFF
+
+ */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* убирает маркеры в списках */
+.list {
+  list-style: none;
+}
+
+/* Убирает подчеркивания в ссылках */
+.link {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+	
+}
+
+/* LOGO */
+.logo {
+  color: #000000;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo > span {
+  color: var(--accent-color);
+}
+
+/* Site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* contacts-nav */
+.contacts-nav .link{
+  color: inherit;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav .link:hover,
+.site-nav .link:hover { 
+	color: var(--accent-color);
+}
