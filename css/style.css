@@ -70,7 +70,9 @@ body {
 }
 
 .contacts-nav .link:hover,
-.site-nav .link:hover {
+.site-nav .link:hover, 
+.contacts-nav .link:focus, 
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
