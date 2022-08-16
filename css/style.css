@@ -34,9 +34,7 @@ body {
   text-decoration: none;
 }
 
-/* header */
-.header {
-}
+
 
 /* LOGO */
 .logo {
@@ -54,11 +52,15 @@ body {
 }
 
 /* Site-nav */
-.site-nav .link {
+.nav-link {
   color: var(--title-text-color);
 
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.link-studio {
+	color: var(--accent-color);
 }
 
 /* contacts-nav */
