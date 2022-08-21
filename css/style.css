@@ -66,16 +66,16 @@ body {
 }
 
 /* contacts-nav */
-.contacts-nav .link {
+.contacts-list .link {
   color: inherit;
 
   font-weight: 500;
   letter-spacing: 0.02em;
 }
 
-.contacts-nav .link:hover,
+.contacts-list .link:hover,
 .site-nav .link:hover, 
-.contacts-nav .link:focus, 
+.contacts-list .link:focus, 
 .site-nav .link:focus {
   color: var(--accent-color);
 }
